@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#1f2c2c">
+		<meta name="description" content="SCC Graphic Design Club: student work, club projects, and graphic design news.">
+		<title>SCC Graphic Design Club</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Sarabun:wght@400;600;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/main.js" defer></script>
+	</head>
+	<body>
+		<a class="skip-link" href="#main-content">Skip to content</a>
+
+		<header class="site-header" id="top">
+			<a class="brand-mark" href="#top" aria-label="SCC Graphic Design Club home">
+				<img src="imgs/logo.svg" alt="SCC Graphic Design Club logo" width="100" height="114">
+			</a>
+
+			<div class="brand-tools">
+				<p class="club-name">SCC Graphic Design Club</p>
+				<div class="search-row">
+					<form class="site-search" id="site-search" role="search">
+						<label class="visually-hidden" for="search-query">Search this page</label>
+						<input id="search-query" name="q" type="search" placeholder="Search this page">
+						<button class="search-submit" type="submit" aria-label="Search page content">
+							<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+								<circle cx="10.8" cy="10.8" r="6.5"></circle>
+								<path d="m16 16 4.2 4.2"></path>
+							</svg>
+						</button>
+					</form>
+					<img class="microphone" src="imgs/mic.svg" alt="" width="15" height="30">
+				</div>
+				<p class="search-status" id="search-status" role="status" aria-live="polite"></p>
+			</div>
+
+			<nav class="primary-nav" aria-label="Main navigation">
+				<a href="#events">Events</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+			</nav>
+
+			<a class="profile-link" href="#contact" aria-label="Contact the club">
+				<img src="imgs/profile.svg" alt="" width="42" height="51">
+			</a>
+
+			<a class="button button-join" href="#contact">Join Here</a>
+
+			<details class="mobile-menu">
+				<summary aria-label="Open navigation menu">
+					<span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+				</summary>
+				<nav class="mobile-nav" aria-label="Mobile navigation">
+					<a href="#events">Events</a>
+					<a href="#contact">Contact</a>
+					<a href="#about">About</a>
+					<a class="button button-join" href="#contact">Join Here</a>
+				</nav>
+			</details>
+		</header>
+
+		<main id="main-content">
+			<section class="hero searchable" id="about" aria-labelledby="hero-quote">
+				<img class="hero-art" src="imgs/hhero.png" alt="SCC Graphic Design Club dimensional GD monogram" width="438" height="438">
+				<div class="hero-copy">
+					<h1 id="hero-quote">&ldquo;Every great design begins<br class="desktop-break"> with an even better story.&rdquo;</h1>
+					<p class="quote-credit">&mdash; Lorinda Mamo, Typographer</p>
+				</div>
+			</section>
+
+			<div class="content-grid">
+				<section class="past-years searchable" id="past-years" aria-labelledby="past-years-title">
+					<h2 class="section-title past-years-title" id="past-years-title">Explore past years:</h2>
+					<div class="years-panel">
+						<div class="year-list">
+							<article class="year-card" aria-label="2026 project archive">
+								<img src="imgs/folder.svg" alt="" width="256" height="180">
+								<span>2026</span>
+							</article>
+							<article class="year-card" aria-label="2025 project archive">
+								<img src="imgs/folder.svg" alt="" width="256" height="180">
+								<span>2025</span>
+							</article>
+							<article class="year-card" aria-label="2024 project archive">
+								<img src="imgs/folder.svg" alt="" width="256" height="180">
+								<span>2024</span>
+							</article>
+						</div>
+						<button class="button button-more" type="button" aria-disabled="true">View More...</button>
+					</div>
+				</section>
+
+				<section class="recent-work searchable" id="events" aria-labelledby="recent-work-title">
+					<h2 class="section-title centered-title" id="recent-work-title">Recent Work:</h2>
+					<div class="featured-panel recent-panel" role="region" aria-label="Featured recent student work">
+						<span class="featured-tag">Featured:</span>
+						<button class="button button-more panel-more" type="button" aria-disabled="true">View More...</button>
+					</div>
+				</section>
+			</div>
+
+			<section class="news-section searchable" id="news" aria-labelledby="news-title">
+				<h2 class="section-title centered-title news-title" id="news-title">Graphic Design News:</h2>
+				<div class="featured-panel news-panel" role="region" aria-label="Featured graphic design news">
+					<span class="featured-tag">Featured:</span>
+					  <button class="button button-more panel-more" type="button" aria-disabled="true">View More...</button>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer" id="contact">
+			<a class="footer-brand" href="#top" aria-label="Back to top">
+				<img src="imgs/logo.svg" alt="SCC Graphic Design Club" width="100" height="114">
+			</a>
+			<nav class="footer-nav" aria-label="Footer navigation">
+				<a href="#events">Events</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+			</nav>
+		</footer>
+	</body>
+</html>
